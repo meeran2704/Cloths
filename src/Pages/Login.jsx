@@ -6,18 +6,22 @@ export default function Login({ setIsAuthenticated }) {
   const [form, setForm] = useState({ email: "", password: "" });
   const navigate = useNavigate();
 
+
+  // ✅ Hardcoded admin credentials
+  const ADMIN_EMAIL = "admin@cloths.com";
+  const ADMIN_PASSWORD = "admin123";
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const savedUser = JSON.parse(localStorage.getItem("user"));
+
     if (
-      savedUser &&
-      savedUser.email === form.email &&
-      savedUser.password === form.password
+      form.email === ADMIN_EMAIL &&
+      form.password === ADMIN_PASSWORD
     ) {
       setIsAuthenticated(true);
       navigate("/");
     } else {
-      alert("Invalid credentials!");
+      alert("Access denied: Admin only");
     }
   };
 
@@ -44,4 +48,3 @@ export default function Login({ setIsAuthenticated }) {
     </div>
   );
 }
-
