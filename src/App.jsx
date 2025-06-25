@@ -12,8 +12,8 @@ import ExpensesPage from "./Pages/Expenses";
 import ReviewsPage from "./Pages/Review";
 import AdvertisementPage from "./Pages/Advertisement";
 import DashboardPage from "./Components/DashboardPage";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 import MainLayout from "./Layout/MainLayout";
 
 
