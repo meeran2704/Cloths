@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 import { Outlet } from 'react-router-dom'
 import { useState } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-import ProtectedRoute from "../components/ProtectedRoute";
+
 import UploadProducts from "../Pages/UploadProducts";
 import Orders from "../Pages/Orders";
 import Stocks from "../Pages/Stocks/AddStock";
