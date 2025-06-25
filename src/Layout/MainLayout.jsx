@@ -14,8 +14,7 @@ import ExpensesPage from "../Pages/Expenses";
 import ReviewsPage from "../Pages/Review";
 import AdvertisementPage from "../Pages/Advertisement";
 import DashboardPage from '../Components/DashboardPage'
-import Login from "../pages/Login";
-import Signup from "../pages/Signup";
+
 
 export default function MainLayout({setIsAuthenticated }) {
   //  const [isAuthenticated, setIsAuthenticated] = useState(false);
