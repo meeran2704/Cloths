@@ -1,7 +1,7 @@
 // src/App.jsx
 import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
 import { useState } from "react";
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./Components/ProtectedRoute";
 import UploadProducts from "./Pages/UploadProducts";
 import Orders from "./Pages/Orders";
 import Stocks from "./Pages/Stocks/AddStock";
